@@ -1,0 +1,218 @@
+@import "mixins";
+
+/* BlockQuote */
+/*-----------------------------------*/
+
+.blockquote {
+	display: block;
+	font-family: @font2;
+	font-size: @font-size;
+	line-height: 1.9;
+	color: @color-lightGray;
+	border-left: 1px solid @color-lightGray;
+	padding-left: 1.5em;
+	margin: 2.5em 3em 3em 1.5em;
+
+	span {
+		display: block;
+		margin-top: 1em;
+		font-style: italic;
+		text-transform: uppercase;
+	}
+
+	@media @md {margin: 2em;}
+	@media @sm {font-size: @font-size-sm;}
+	@media @xs {font-size: @font-size-xs;}
+	@media @xxs {margin: 2em 1em;}
+}
+
+/* Unordered List */
+/*-----------------------------------*/
+
+.unordered-list {
+	margin: 2.5em 3em 3em 2.5em;
+	@media @md {margin: 2em;}
+
+	li {
+		line-height: 1.2;
+		margin-bottom: .9em;
+		position: relative;
+
+		&:before {
+			content: '';
+			.size(6px);
+			.border-radius(50%);
+			background-color: @color-lightGray;
+			position: absolute;
+			top: 5px;
+			left: -16px;
+		}
+	}
+
+	@media @xs {
+		margin: 2em 6% 2.4em;
+
+		li {
+			font-size: @font-size-md;
+
+			&:before {
+				top: 4px;
+				left: -20px;
+			}
+		}
+	}
+
+	@media @xs {
+		li:before {left: -17px;}
+	}
+}
+
+/* Ordered List */
+/*-----------------------------------*/
+
+.ordered-list {
+	margin: 2.5em 3em 3em 2.5em;
+	@media @md {margin: 2em;}
+	list-style-type: none;
+	counter-reset: list;
+
+	li {
+		line-height: 1.2;
+		margin-bottom: .9em;
+		position: relative;
+
+		&:before {
+			counter-increment: list;
+			content: counter(list);
+			position: absolute;
+			top: -5px;
+			left: -35px;
+			.size(26px);
+			font-size: @font-size;
+			line-height: 26px;
+			font-style: normal;
+			text-align: right;
+		}
+	}
+
+	@media @xs {
+		margin: 2em 6% 2.4em;
+
+		li {
+			font-size: @font-size-md;
+
+			&:before {
+				top: -6px;
+				left: -39px;
+			}
+		}
+	}
+
+	@media @xs {
+		li:before {left: -36px;}
+	}
+}
+
+/* Definition List */
+/*-----------------------------------*/
+
+.definition-list {
+	margin: 2.5em 3em 3em 1.24em;
+	@media @md {margin: 2em .6em;}
+	@media @xs {margin: 2em 1em;}
+	@media @xxs {margin: 2em 0;}
+
+	dt {
+		font-size: @font-size - 1;
+		font-weight: 500;
+		color: @color-dark;
+		letter-spacing: .2em;
+		text-transform: uppercase;
+		margin: .6em 0;
+		@media @xxs {letter-spacing: 0;}
+	}
+
+	dd {
+		margin-bottom: 1.6em;
+		@media @md {margin-bottom: 1.4em;}
+	}
+}
+
+/* HighLighted First Letter */
+/*-----------------------------------*/
+
+.first-letter:first-letter {
+	float: left;
+	font-size: 4.4em;
+	line-height: .8;
+	//color: @color-black;
+	text-transform: uppercase;
+	padding: .18em .26em 0 0;
+}
+
+/* Blog Details */
+/*-----------------------------------*/
+
+.post-content {
+	blockquote {
+		.blockquote();
+	}
+	ul {
+		.unordered-list();
+	}
+	ol {
+		.ordered-list();
+	}
+	dl {
+		.definition-list();
+	}
+}
+
+.post-taglist {
+	margin-top: 20px;
+	text-align: left;
+
+	a {
+		position: relative;
+		z-index: 0;
+		display: inline-block;
+		overflow: hidden;
+		height: 20px;
+		line-height: 18px;
+		border: 1px solid @color-lightGray;
+		font-family: @font4;
+		font-size: @font-size - 1;
+		color: @color-lightGray;
+		padding: 0 1em;
+		margin: 0 8px 8px 0;
+		.transition();
+
+		&:hover, &:active {
+			border-color: @color-black;
+			background-color: @color-black;
+			color: @color-white;
+			.box-shadow(inset 0 0 0 1px @color-black);
+		}
+	}
+}
+
+.post-share {
+	font-size: 0;
+	margin-top: 22px;
+
+	li {
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 20px;
+		@media @xs {margin: 0 20px 10px 0;}
+	}
+
+	a {
+		font-size: 16px;
+		color: @color-gray;
+
+		&:hover, &:active {color: @link-color-hover;}
+	}
+
+	@media @xs {text-align: left;}
+}

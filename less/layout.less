@@ -1,0 +1,68 @@
+@import "mixins";
+
+/* General Layout */
+/*-----------------------------------*/
+
+.page-wrapper {
+	background-color: @color-white;
+	padding-top: 30px;
+	max-width: 1280px;
+	margin: -44px auto 0;
+	position: relative;
+
+	@media @xmd {max-width: 1200px;}
+	@media @md {max-width: 970px;}
+	@media @sm {max-width: 750px;}
+	@media @xs {max-width: none; margin: 0;}
+}
+
+.content,
+.sidebar {
+	width: 100%;
+	padding: 0 15px;
+	margin-bottom: 50px;
+}
+
+.sidebar {display: none;}
+
+.page-sidebar,
+.page-sidebar-left {
+	.content {
+		float: left;
+		width: 75%;
+		@media @md {width: 70%;}
+		@media @sm {width: 65%;}
+	}
+
+	.sidebar {
+		display: block;
+		float: right;
+		width: 25%;
+		@media @md {width: 30%;}
+		@media @sm {width: 35%;}
+		padding-top: 11px;
+	}
+
+	@media @xs {
+		.content,
+		.sidebar {
+			width: 100%;
+			float: none !important;
+		}
+	}
+}
+
+.page-sidebar-left {
+	.content {float: right;}
+	.sidebar {float: left;}
+}
+
+.page-narrow {
+	.content {
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.sidebar {display: none;}
+}

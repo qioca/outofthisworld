@@ -1,0 +1,32 @@
+@import "mixins";
+
+/* Portfolio Details */
+/*-----------------------------------*/
+
+.project-info {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+
+	.item {
+		margin-bottom: 30px;
+		@media @xxs {margin-bottom: 20px;}
+
+		@media @md {
+			&:nth-child(2n + 1) {margin-left: 0;}
+		}
+
+		> strong {
+			font-family: @font2;
+			font-size: @font-size-h4;
+			@media @sm {font-size: @font-size + 1;}
+			@media @xxs {font-size: @font-size;}
+			display: block;
+			margin-bottom: .4em;
+		}
+
+		> span {
+			display: block;
+			line-height: 1.4;
+		}
+	}
+}

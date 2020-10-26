@@ -1,0 +1,221 @@
+@import "mixins";
+
+/* Page Loader */
+/*-----------------------------------*/
+
+.loader {
+	.absolute(fixed, 9999);
+	background-color: @color-white;
+
+	.inner {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -30px 0 0 -26px;
+		visibility: hidden;
+	}
+
+	&.active .inner {visibility: visible;}
+}
+
+[class*='loader-part-'] {
+	float: left;
+	.size(12px, 60px);
+	margin-left: 8px;
+	opacity: .1;
+	border: 2px solid @loader-color;
+	.animation(loader, 1.2s, infinite);
+	.transform(scale(.7));
+}
+
+.loader-part-1 {margin-left: 0;}
+.loader-part-2 {.animation-delay(.2s);}
+.loader-part-3 {.animation-delay(.4s);}
+
+@-webkit-keyframes loader {
+	50% {
+		-webkit-transform: scale(1.2);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scale(0.7);
+		opacity: .1;
+	}
+}
+@keyframes loader {
+	50% {
+		transform: scale(1.2);
+		opacity: 1;
+	}
+	100% {
+		transform: scale(0.7);
+		opacity: .1;
+	}
+}
+
+/* Page Title */
+/*-----------------------------------*/
+
+.page-title {
+	font-size: @page-title-font-size;
+	font-weight: 700;
+	color: @color-white;
+	letter-spacing: -.01em;
+	text-align: center;
+	margin: 0;
+
+	span {
+		display: inline-block;
+		padding: .18em .24em;
+		border: 3px solid @color-white;
+	}
+
+	@media @md {font-size: @page-title-font-size * .8;}
+	@media @xs {font-size: 24px;}
+	@media @xxs {font-size: 16px;}
+
+	.main-slider-big & {
+		font-size: @page-title-font-size * 1.4;
+		@media @md {font-size: @page-title-font-size;}
+		@media @sm {font-size: @page-title-font-size * .8;}
+		@media @xs {font-size: 24px;}
+		@media @xxs {font-size: 16px;}
+	}
+}
+
+/* Page Title Before */
+/*-----------------------------------*/
+
+.page-title-before {
+	font-family: @headings-font-family;
+	font-size: @page-title-font-size * .29;
+	color: @color-white;
+	letter-spacing: 0.26em;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: .6em;
+
+	@media @md {font-size: @page-title-font-size * .23;}
+	@media @xs {font-size: 10px; letter-spacing: 0;}
+	@media @xxs {font-size: 9px;}
+
+	.main-slider-big & {
+		font-size: @page-title-font-size * .4;
+		@media @md {font-size: @page-title-font-size * .29;}
+		@media @sm {font-size: @page-title-font-size * .23;}
+		@media @xs {font-size: 10px; letter-spacing: 0;}
+		@media @xxs {font-size: 9px;}
+	}
+}
+
+/* Ajax Button */
+/*-----------------------------------*/
+
+.load-more {
+	position: relative;
+	text-align: center;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		height: 1px;
+		background-color: @color-light;
+	}
+
+	a {
+		position: relative;
+		display: inline-block;
+		outline: none;
+		height: @button-height;
+		line-height: @button-height - @button-border-width * 2;
+		border: @button-border-width solid @color-light;
+		background-color: @color-white;
+		font-family: @button-font-family;
+		font-size: @button-font-size;
+		font-weight: @button-font-weight;
+		color: @color-lightGray;
+		text-transform: uppercase;
+		white-space: nowrap;
+		letter-spacing: @button-letter-spacing;
+		padding: 0 @button-height/2;
+		.transition();
+
+		&:hover, &:active {
+			border-color: @button-color;
+			color: @button-color2;
+			background-color: @button-color;
+		}
+	}
+}
+
+/* Logo */
+/*-----------------------------------*/
+
+.logo {
+	display: inline-block;
+	font-family: @font2;
+	font-size: @font-size-h1;
+	line-height: normal;
+	color: @color-white;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+
+	a& {
+		color: @color-white;
+		&:hover, &:active {color: @color-white;}
+	}
+
+	&.black {
+		color: @color-black;
+		&:hover, &:active {color: @color-black;}
+	}
+
+	@media @sm {font-size: @font-size-h4 + 1;}
+
+	img {
+		display: inline-block;
+		vertical-align: -86%;
+		margin-right: 20px;
+
+		@media @sm {
+			width: 30px;
+			margin-right: 5px;
+		}
+	}
+
+	.image-sticky {display: none;}
+
+	.sticky & {
+		color: @color-black;
+		&:hover, &:active {color: @color-black;}
+
+
+		img {display: none;}
+		.image-sticky {display: inline-block;}
+	}
+}
+
+/* Map */
+/*-----------------------------------*/
+
+.google-map {
+	height: 440px;
+	@media @sm {height: 360px;}
+	@media @xs {height: 260px;}
+	@media @xxs {height: 200px;}
+	margin-bottom: @section-margin * .8;
+}
+
+/* ScrollBar Width Detection */
+/*-----------------------------------*/
+
+.scrollbar-detect {
+	height: 0;
+	opacity: 0;
+	visibility: hidden;
+	overflow: scroll;
+	span {display: block;}
+}
