@@ -41,6 +41,15 @@
 	<!-- Navigation Bar -->
 	<nav class="navigation clearfix" data-become-sticky="600">
 		<a class="logo" href="."><img src="images/logo-x2.png" alt="" width="44px" height="58px"/><img  class="image-sticky" src="images/logo-black-x2.png" alt="" width="44px" height="58px"/>outofthisworld/</a>
+
+		<div class="navigation-link visible-xs"><a href="#"></a></div>
+		</div>
+
+		<!-- Dropdown Menu -->
+		<ul class="nav-menu clearfix">
+			<li><a href="#contactform">CONTACT</a></li>
+		</ul>
+		<!--/ Dropdown Menu -->
 	</nav>
 	<!--/ Navigation Bar -->
 
@@ -63,7 +72,7 @@
                 <!--/ Home Page -->
                 <section class="item parallax overlay" data-image="images/acumen.jpg">
                     <div class="description">
-                        <div class="page-title-before" data-animate-in="fadeInDown" data-animate-out="fadeOutUp">&nbsp;</div>
+                        <div class="page-title-before" data-animate-in="fadeInDown" data-animate-out="fadeOutUp"></div><span id="landing"></span>
                         <h1 class="page-title" data-animate-in="zoomIn" data-animate-out="zoomOut"><span>acumen/</span></h1>
                     </div>
                     <div class="wrap"></div>
@@ -345,7 +354,8 @@
                 <p>&nbsp;</p>
 
                     <!-- Contact Form -->
-                    <form action="https://formspree.io/contact@gendoms.com" method="post" class="fly-form-contact wpcf7-form">
+
+                    <form action="https://formspree.io/contact@gendoms.com" method="post" class="wpcf7-form">
                         <div class="row">
                             <div class="col-sm-6 col-md-3">
                                 <div class="form-group required">
@@ -377,7 +387,8 @@
                         <div class="text-right">
                             <input type="submit" value="Send Message" class="btn btn-transparent wpcf7-form-control wpcf7-submit"/>
                         </div>
-                    </form>
+                    </form><span id="contactform"></span>
+
                     <!--/ Contact Form -->
                 </main>
                 <!--/ Content -->
