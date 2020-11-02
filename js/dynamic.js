@@ -17,6 +17,10 @@
 		if (dynamicContent == 'hoho') {
 			$('#hoho').show();
 		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == '9x') {
+			$('#9x').show();
+		} 
 		// Check if the URL parmeter is empty or not defined, display default content
 		else {
 			$('#default-content').show();
