@@ -38,3 +38,6 @@ spin {
 		margin: 0;
 		-webkit-text-size-adjust: none;
 	}
+.footer > .widget-categories br {
+	display: block !important;
+}
