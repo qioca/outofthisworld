@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /js/
+Disallow: /less/
+Disallow: /lander/
+Disallow: /mmmilkshake/
+Disallow: 404.html
+Disallow: portfolio.html
+Disallow: contact.html
+
+Sitemap: http://outofthisworld/sitemap.xml
