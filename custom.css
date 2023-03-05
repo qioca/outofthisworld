@@ -1,6 +1,20 @@
 /*body {
   overflow-y: hidden;
 }*/
+/* VIDEO START */
+video {
+    animation: hide 1s linear 6s 1 forwards;
+}
+@keyframes hide {
+    to {
+        opacity: 0;
+    }
+}
+.overlay .video-container:before {
+  content: '';
+  background: none;
+}
+/* VIDEO END */
 .wrap {
 position:fixed;
 top:0;
@@ -52,5 +66,15 @@ spin {
 @media only screen and (max-width: 479px) {
   .portfolio .item-link .item-title {
     font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: block !important;
+  }
+}
+@media (min-width: 1960px) {
+  .hidden-xs {
+    display: none !important;
   }
 }
