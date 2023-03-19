@@ -62,8 +62,8 @@
 			$('#radical').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'epk') {
-			$('#epk').show();
+		else if (dynamicContent == 'ampa') {
+			$('#ampa').show();
 		} 
 		// Check if the URL parameter matches
 		else if (dynamicContent == 'redivider') {
@@ -82,8 +82,8 @@
 			$('#primum').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'wayfarer') {
-			$('#wayfarer').show();
+		else if (dynamicContent == 'boundless') {
+			$('#boundless').show();
 		} 
 		// Check if the URL parameter matches
 		else if (dynamicContent == 'cinder') {
@@ -114,8 +114,8 @@
 			$('#ods').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'hits') {
-			$('#hits').show();
+		else if (dynamicContent == 'entertain') {
+			$('#entertain').show();
 		} 
 		// Check if the URL parameter matches
 		else if (dynamicContent == 'wwb') {
@@ -146,16 +146,264 @@
 			$('#oze').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'shp') {
-			$('#shp').show();
+		else if (dynamicContent == 'served') {
+			$('#served').show();
 		} 
 		// Check if the URL parameter matches
 		else if (dynamicContent == 'hoho') {
 			$('#hoho').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == '9x') {
-			$('#9x').show();
+		else if (dynamicContent == 'emergence') {
+			$('#emergence').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'explosive') {
+			$('#explosive').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'moderna') {
+			$('#moderna').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'piai') {
+			$('#piai').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'mati') {
+			$('#mati').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'otter') {
+			$('#otter').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'yadu') {
+			$('#yadu').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'warden') {
+			$('#warden').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'skit') {
+			$('#skit').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'flout') {
+			$('#flout').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'fess') {
+			$('#fess').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'magnitude') {
+			$('#magnitude').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'imperative') {
+			$('#imperative').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'minion') {
+			$('#minion').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'premise') {
+			$('#premise').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'heres') {
+			$('#heres').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'immense') {
+			$('#immense').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'because') {
+			$('#because').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'slew') {
+			$('#slew').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'stab') {
+			$('#stab').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'waft') {
+			$('#waft').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'bosses') {
+			$('#bosses').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'accordion') {
+			$('#accordion').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'stallion') {
+			$('#stallion').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'arti') {
+			$('#arti').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'dire') {
+			$('#dire').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'liable') {
+			$('#liable').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'shovel') {
+			$('#shovel').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'levitate') {
+			$('#levitate').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'canny') {
+			$('#canny').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'sleeve') {
+			$('#sleeve').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'fists') {
+			$('#fists').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'todays') {
+			$('#todays').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'rhyme') {
+			$('#rhyme').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'prey') {
+			$('#prey').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'flaming') {
+			$('#flaming').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'dede') {
+			$('#dede').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'mire') {
+			$('#mire').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'jawa') {
+			$('#jawa').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'bubu') {
+			$('#bubu').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'bout') {
+			$('#bout').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'amulet') {
+			$('#amulet').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'prig') {
+			$('#prig').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'joos') {
+			$('#joos').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'mink') {
+			$('#mink').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'collar') {
+			$('#collar').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'momentous') {
+			$('#momentous').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'tenne') {
+			$('#tenne').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'opaque') {
+			$('#opaque').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'inni') {
+			$('#inni').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'dela') {
+			$('#dela').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'igne') {
+			$('#igne').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'adjective') {
+			$('#adjective').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'trai') {
+			$('#trai').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'gravitate') {
+			$('#gravitate').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'politic') {
+			$('#politic').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'whitestar') {
+			$('#whitestar').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'dinghy') {
+			$('#dinghy').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'personage') {
+			$('#personage').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'g-spot') {
+			$('#g-spot').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'pyramid') {
+			$('#pyramid').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'vale') {
+			$('#vale').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'lynx') {
+			$('#lynx').show();
 		} 
 		// Check if the URL parmeter is empty or not defined, display default content
 		else {
