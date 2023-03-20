@@ -4,7 +4,7 @@
 
    <url>
 
-      <loc>http://outofthisworld/</loc>
+      <loc>http://blast.outofthisworld/</loc>
 
       <priority>1.0</priority>
 
@@ -12,13 +12,13 @@
    
    <url>
 
-      <loc>http://outofthisworld/milkshake.html</loc>
+      <loc>http://blast.outofthisworld/milkshake.html</loc>
 
    </url>
 
    <url>
 
-      <loc>http://outofthisworld/resources.html</loc>
+      <loc>http://blast.outofthisworld/places.html</loc>
 
    </url>
 
