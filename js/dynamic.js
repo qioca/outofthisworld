@@ -405,6 +405,14 @@
 		else if (dynamicContent == 'lynx') {
 			$('#lynx').show();
 		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'bibliotheca') {
+			$('#bibliotheca').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'between') {
+			$('#between').show();
+		} 
 		// Check if the URL parmeter is empty or not defined, display default content
 		else {
 			$('#default-content').show();
