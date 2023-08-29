@@ -52,6 +52,14 @@ spin {
 		margin: 0;
 		-webkit-text-size-adjust: none;
 	}
+/*.page-title span {
+  display: inline-block;
+  padding: .18em .24em;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+}*/
 .footer > .widget-categories br {
 	display: block !important;
 }
