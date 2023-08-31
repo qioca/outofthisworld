@@ -414,15 +414,15 @@
 			$('#between').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'lynx') {
+		else if (dynamicContent == 'sulphur') {
 			$('#sulphur').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'bibliotheca') {
+		else if (dynamicContent == 'punto') {
 			$('#punto').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'between') {
+		else if (dynamicContent == 'crzy') {
 			$('#crzy').show();
 		} 
 		// Check if the URL parmeter is empty or not defined, display default content
