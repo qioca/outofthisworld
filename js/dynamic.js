@@ -354,8 +354,8 @@
 			$('#inni').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'dela') {
-			$('#dela').show();
+		else if (dynamicContent == 'sash') {
+			$('#sash').show();
 		} 
 		// Check if the URL parameter matches
 		else if (dynamicContent == 'igne') {
@@ -412,6 +412,18 @@
 		// Check if the URL parameter matches
 		else if (dynamicContent == 'between') {
 			$('#between').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'lynx') {
+			$('#sulphur').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'bibliotheca') {
+			$('#punto').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'between') {
+			$('#crzy').show();
 		} 
 		// Check if the URL parmeter is empty or not defined, display default content
 		else {
