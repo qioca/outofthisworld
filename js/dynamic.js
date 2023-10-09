@@ -238,8 +238,8 @@
 			$('#waft').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'bosses') {
-			$('#bosses').show();
+		else if (dynamicContent == 'powfu') {
+			$('#powfu').show();
 		} 
 		// Check if the URL parameter matches
 		else if (dynamicContent == 'accordion') {
@@ -424,6 +424,38 @@
 		// Check if the URL parameter matches
 		else if (dynamicContent == 'crzy') {
 			$('#crzy').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'chavo') {
+			$('#chavo').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'dung') {
+			$('#dung').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'quoll') {
+			$('#quoll').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'clonal') {
+			$('#clonal').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'sabertooth') {
+			$('#sabertooth').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'badtothebone') {
+			$('#badtothebone').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'studded') {
+			$('#studded').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'geyser') {
+			$('#geyser').show();
 		} 
 		// Check if the URL parmeter is empty or not defined, display default content
 		else {
