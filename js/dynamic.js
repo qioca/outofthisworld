@@ -454,6 +454,10 @@
 			$('#studded').show();
 		} 
 		// Check if the URL parameter matches
+		else if (dynamicContent == 'hornbill') {
+			$('#hornbill').show();
+		} 
+		// Check if the URL parameter matches
 		else if (dynamicContent == 'geyser') {
 			$('#geyser').show();
 		} 
