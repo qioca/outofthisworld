@@ -461,6 +461,10 @@
 		else if (dynamicContent == 'geyser') {
 			$('#geyser').show();
 		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'komodo') {
+			$('#komodo').show();
+		} 
 		// Check if the URL parmeter is empty or not defined, display default content
 		else {
 			$('#default-content').show();
