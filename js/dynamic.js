@@ -465,6 +465,18 @@
 		else if (dynamicContent == 'komodo') {
 			$('#komodo').show();
 		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'nodule') {
+			$('#nodule').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'drove') {
+			$('#drove').show();
+		} 
+		// Check if the URL parameter matches
+		else if (dynamicContent == 'empirical') {
+			$('#empirical').show();
+		} 
 		// Check if the URL parmeter is empty or not defined, display default content
 		else {
 			$('#default-content').show();
