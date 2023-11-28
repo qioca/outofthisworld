@@ -458,8 +458,8 @@
 			$('#hornbill').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'geyser') {
-			$('#geyser').show();
+		else if (dynamicContent == 'nuthatch') {
+			$('#nuthatch').show();
 		} 
 		// Check if the URL parameter matches
 		else if (dynamicContent == 'komodo') {
