@@ -238,8 +238,8 @@
 			$('#waft').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'powfu') {
-			$('#powfu').show();
+		else if (dynamicContent == 'visceral') {
+			$('#visceral').show();
 		} 
 		// Check if the URL parameter matches
 		else if (dynamicContent == 'accordion') {
@@ -454,12 +454,12 @@
 			$('#studded').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'hornbill') {
-			$('#hornbill').show();
+		else if (dynamicContent == 'atmospheric') {
+			$('#atmospheric').show();
 		} 
 		// Check if the URL parameter matches
-		else if (dynamicContent == 'nuthatch') {
-			$('#nuthatch').show();
+		else if (dynamicContent == 'apse') {
+			$('#apse').show();
 		} 
 		// Check if the URL parameter matches
 		else if (dynamicContent == 'komodo') {
